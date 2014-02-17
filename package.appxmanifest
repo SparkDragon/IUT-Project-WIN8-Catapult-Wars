@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="7151262f-3f9e-4bf6-9b33-183a71308732" Version="1.0.0.0" Publisher="CN=licenceweb" />
+  <Properties>
+    <DisplayName>Catapult Wars</DisplayName>
+    <PublisherDisplayName>licenceweb</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Catapult Wars" Logo="images\Textures\Backgrounds\title_screen_150x150.png" SmallLogo="images\Textures\Backgrounds\title_screen_30x30.png" Description="Catapult Wars" ForegroundText="light" BackgroundColor="#D3D0DF">
+        <DefaultTile ShowName="allLogos" WideLogo="images\Textures\Backgrounds\title_screen_310x150.png" />
+        <SplashScreen Image="images\Textures\Backgrounds\title_screen2.png" BackgroundColor="#D3D0DF" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
