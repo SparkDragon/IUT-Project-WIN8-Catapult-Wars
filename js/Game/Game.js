@@ -1,4 +1,4 @@
-﻿function Game()
+﻿function Game(players)
 {
     var title;
     var p1Lives, p1Name;
@@ -12,10 +12,12 @@
     var playerTurn = 1;			// Who's turn is it ?
     var playerFire = false;		// Does player 1 is firing ?
 	
+    var nbPlayer = (typeof players === "undefined") ? 1 : players;
+
 	this.ammo;
     this.player1;
     this.player2;
-    this.preload;
+	preload = new createjs.LoadQueue();
 
     this.canvas;
     this.context;
@@ -54,7 +56,6 @@
 			stage = new createjs.Stage(canvas);
 			clouds = new Clouds();
 
-			preload = new createjs.LoadQueue();
 			preload.addEventListener("complete", prepareGame);
 			var manifest = [
 				{ id: "screenImage", src: "images/Textures/Backgrounds/gameplay_screen1.png" },
@@ -80,6 +81,13 @@
 				{ id: "aimSound", src: SoundManager.getInstance().sounds["aim"]["path"]},
 				{ id: "winSound", src: SoundManager.getInstance().sounds["win"]["path"]},
 			];
+
+			for (var i = 1; i < 20; ++i)
+            {
+                manifest.push({ id: "redCatapult" + i, src: "images/Textures/Catapults/Red/redAimAnimation/catapult" + i + ".png" });
+                manifest.push({ id: "blueCatapult" + i, src: "images/Textures/Catapults/Blue/blueAimAnimation/catapult" + i + ".png" });
+            }
+
 			preload.loadManifest(manifest);
 		}
 		catch(e)
@@ -87,18 +95,33 @@
 			new Console(e, true);
 		}
     }
+	
+	function startEventListeners()
+	{
+		canvas.addEventListener("MSPointerUp", endAim, false);
+		canvas.addEventListener("MSPointerMove", adjustAim, false);
+		canvas.addEventListener("MSPointerDown", beginAim, false);
+	}
+	
+	function stopEventListeners()
+	{
+		canvas.removeEventListener("MSPointerUp", endAim, false);
+		canvas.removeEventListener("MSPointerMove", adjustAim, false);
+		canvas.removeEventListener("MSPointerDown", beginAim, false);
+	}
 
     function prepareGame()
     {
         try
 		{
-			player1 = new CatapultHuman(preload.getResult("redImage"), Game.LIVES_PER_PLAYER,"left");
-			//player2 = new CatapultCPU(preload.getResult("blueImage"), Game.LIVES_PER_PLAYER);
-			player2 = new CatapultHuman(preload.getResult("blueImage"), Game.LIVES_PER_PLAYER,"right");
+            player1 = new CatapultHuman(preload.getResult("redImage"), Game.LIVES_PER_PLAYER, "left");
 
-			canvas.addEventListener("MSPointerUp", endAim, false);
-			canvas.addEventListener("MSPointerMove", adjustAim, false);
-			canvas.addEventListener("MSPointerDown", beginAim, false);
+            if (nbPlayer == 2)
+                player2 = new CatapultHuman(preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
+            else
+                player2 = new CatapultCPU(preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
+
+			startEventListeners();
 
 			//Draw background first (other items appear on top)
 			
@@ -252,13 +275,11 @@
 		{
 			if (getCurrentPlayer().isAiming)
 			{
-				var vector = getCurrentPlayer().endAim(event);
-				if (vector)
-				{
+			    if (getCurrentPlayer().endAim(event))
+                {
 				    playerFire = false;
 				    SoundManager.getInstance().playSound("fire");
-                    ammo.initializeShot(getCurrentPlayer(), vector, getCurrentPlayer());
-				}
+                }
 			}
 		}
 		catch(e)
@@ -305,12 +326,24 @@
 	function changePlayerTurn()
     {
 	    playerTurn = playerTurn%2 +1;    // Change player
+		if (nbPlayer == 1)
+		{
+			if (playerTurn == 2)
+			{
+				stopEventListeners();
+            }
+			else
+				startEventListeners();
+		}
 	}
 
 	// Move the ammo or wait the player 1 to fire
     function update()
     {
-		clouds.update();
+        clouds.update();
+        
+        if (!getCurrentPlayer().replaced)
+            getCurrentPlayer().replaceAnimationAfterShot();
 
 		if (ammo.isShotFlying())	// The ammo is in the air --> Let's move the ammo
 		{
@@ -318,7 +351,7 @@
 			{
 			    changePlayerTurn();
 			}
-			else if (playerTurn == 1)	// Player 1 have to play
+			else if (playerTurn == 1)	// Player 1 is playing
 			{
 				if (checkHit(player2))
 				{
@@ -328,9 +361,8 @@
 					processHit();
 				}
 			}
-			else if (playerTurn == 2)	// Player 2 have to play
+			else if (playerTurn == 2)	// Player 2 is playing
 			{
-			    
 				if (checkHit(player1))
 				{
 					// Hit
@@ -340,6 +372,28 @@
 				}
 			}
 		}
+
+		else if (getCurrentPlayer().isShooting)
+		{
+		    var aimVector = getCurrentPlayer().nextAnimationToShoot();
+		    if (aimVector)
+                ammo.initializeShot(getCurrentPlayer(), aimVector, getCurrentPlayer());
+		}
+        
+        else if (nbPlayer == 1 && playerTurn == 2)
+        {
+            if (!getCurrentPlayer().isAiming)
+                player2.beginAim();
+            else
+            {
+                if (getCurrentPlayer().adjustAim())
+                {
+		            var aimVector = getCurrentPlayer().nextAnimationToShoot();
+		            if (aimVector)
+		                ammo.initializeShot(getCurrentPlayer(), aimVector, getCurrentPlayer());
+                }
+            }
+        }
     }
 
     function draw()

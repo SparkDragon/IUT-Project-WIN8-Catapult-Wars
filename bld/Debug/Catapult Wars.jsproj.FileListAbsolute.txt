@@ -76,3 +76,25 @@ C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle Catap
 C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\bld\Debug\pri.resfiles
 C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\bld\Debug\LanguageQualifiers.txt
 C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\bld\Debug\ProjectArchitectures.txt
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bin\Debug\resources.pri
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bin\Debug\AppxManifest.xml
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bld\Debug\priconfig.xml
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bld\Debug\layout.resfiles
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bld\Debug\resources.resfiles
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bld\Debug\pri.resfiles
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bld\Debug\LanguageQualifiers.txt
+C:\Users\licenceweb\Desktop\Version Solo + Multi\bld\Debug\ProjectArchitectures.txt
+C:\Users\licenceweb\Desktop\Version Animation\bin\Debug\resources.pri
+C:\Users\licenceweb\Desktop\Version Animation\bin\Debug\AppxManifest.xml
+C:\Users\licenceweb\Desktop\Version Animation\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\priconfig.xml
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\layout.resfiles
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\resources.resfiles
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\pri.resfiles
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\LanguageQualifiers.txt
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\ProjectArchitectures.txt
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\priconfig.xml.intermediate
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\layout.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\resources.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\pri.resfiles.intermediate

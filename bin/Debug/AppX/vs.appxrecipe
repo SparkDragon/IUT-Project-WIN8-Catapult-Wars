@@ -5,7 +5,7 @@
     <WindowsUser>licenceweb</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>CB0B0822EE5C9C8BD6E2F449CFE4446C36B1899BCCC92F8C6A797CEC9CBE72FF</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>053A6DC298567D4B5C69D5F47D160A6FA4EFC2A4EB8853FA109D57254B544E6B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7151262f-3f9e-4bf6-9b33-183a71308732_1.0.0.0_neutral__qhvhqcestafz8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7151262f-3f9e-4bf6-9b33-183a71308732_qhvhqcestafz8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7151262f-3f9e-4bf6-9b33-183a71308732</RegisteredPackageID>
@@ -13,297 +13,497 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\licenceweb\Desktop\Version Animation\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-10T08:29:53.130</Modified>
+      <Modified>2014-02-18T21:21:04.523</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\default.html">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2014-02-10T08:01:36.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
-      <Modified>2012-07-26T10:30:08.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
-      <Modified>2012-07-26T10:30:08.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
-      <Modified>2012-07-26T10:30:08.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T10:30:08.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Ammo\rock_ammo.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Ammo\rock_ammo.png">
       <PackagePath>images\Textures\Ammo\rock_ammo.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\blank.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\blank.png">
       <PackagePath>images\Textures\Backgrounds\blank.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\cloud1.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\cloud1.png">
       <PackagePath>images\Textures\Backgrounds\cloud1.png</PackagePath>
-      <Modified>2014-02-03T09:45:28.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\cloud2.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\cloud2.png">
       <PackagePath>images\Textures\Backgrounds\cloud2.png</PackagePath>
-      <Modified>2014-02-03T09:45:44.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\cloud3.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\cloud3.png">
       <PackagePath>images\Textures\Backgrounds\cloud3.png</PackagePath>
-      <Modified>2014-02-03T09:46:08.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\cloud4.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\cloud4.png">
       <PackagePath>images\Textures\Backgrounds\cloud4.png</PackagePath>
-      <Modified>2014-02-03T09:46:20.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\defeat.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\defeat.png">
       <PackagePath>images\Textures\Backgrounds\defeat.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\gameplay_screen.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\gameplay_screen.png">
       <PackagePath>images\Textures\Backgrounds\gameplay_screen.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\gameplay_screen1.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\gameplay_screen1.png">
       <PackagePath>images\Textures\Backgrounds\gameplay_screen1.png</PackagePath>
-      <Modified>2014-02-03T08:05:18.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\hudBackground.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\hudBackground.png">
       <PackagePath>images\Textures\Backgrounds\hudBackground.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\instructions.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\instructions.png">
       <PackagePath>images\Textures\Backgrounds\instructions.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\mountain.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\mountain.png">
       <PackagePath>images\Textures\Backgrounds\mountain.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\sky.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\sky.png">
       <PackagePath>images\Textures\Backgrounds\sky.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen.png">
       <PackagePath>images\Textures\Backgrounds\title_screen.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen2.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen2.png">
       <PackagePath>images\Textures\Backgrounds\title_screen2.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-02-02T12:54:24.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen_150x150.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen_150x150.png">
       <PackagePath>images\Textures\Backgrounds\title_screen_150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-09T08:03:30.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen_30x30.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen_30x30.png">
       <PackagePath>images\Textures\Backgrounds\title_screen_30x30.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-09T08:04:44.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen_310x150.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen_310x150.png">
       <PackagePath>images\Textures\Backgrounds\title_screen_310x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-09T08:05:20.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen_620x300.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen_620x300.png">
       <PackagePath>images\Textures\Backgrounds\title_screen_620x300.png</PackagePath>
-      <Modified>2013-12-09T07:59:40.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\victory.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\victory.png">
       <PackagePath>images\Textures\Backgrounds\victory.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult1.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult1.png</PackagePath>
+      <Modified>2014-02-18T21:03:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult10.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult10.png</PackagePath>
+      <Modified>2014-02-18T21:03:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult11.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult11.png</PackagePath>
+      <Modified>2014-02-18T21:03:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult12.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult12.png</PackagePath>
+      <Modified>2014-02-18T21:03:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult13.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult13.png</PackagePath>
+      <Modified>2014-02-18T21:03:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult14.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult14.png</PackagePath>
+      <Modified>2014-02-18T21:03:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult15.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult15.png</PackagePath>
+      <Modified>2014-02-18T21:03:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult16.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult16.png</PackagePath>
+      <Modified>2014-02-18T21:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult17.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult17.png</PackagePath>
+      <Modified>2014-02-18T21:02:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult18.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult18.png</PackagePath>
+      <Modified>2014-02-18T21:02:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult19.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult19.png</PackagePath>
+      <Modified>2014-02-18T21:02:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult2.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult2.png</PackagePath>
+      <Modified>2014-02-18T21:02:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult20.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult20.png</PackagePath>
+      <Modified>2014-02-18T21:02:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult3.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult3.png</PackagePath>
+      <Modified>2014-02-18T21:02:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult4.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult4.png</PackagePath>
+      <Modified>2014-02-18T21:02:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult5.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult5.png</PackagePath>
+      <Modified>2014-02-18T21:02:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult6.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult6.png</PackagePath>
+      <Modified>2014-02-18T21:01:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult7.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult7.png</PackagePath>
+      <Modified>2014-02-18T21:01:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult8.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult8.png</PackagePath>
+      <Modified>2014-02-18T21:01:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult9.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult9.png</PackagePath>
+      <Modified>2014-02-18T21:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png">
       <PackagePath>images\Textures\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Blue\blueFire\blueCatapult_fire.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueFire\blueCatapult_fire.png">
       <PackagePath>images\Textures\Catapults\Blue\blueFire\blueCatapult_fire.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Blue\blueIdle\blueIdle.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueIdle\blueIdle.png">
       <PackagePath>images\Textures\Catapults\Blue\blueIdle\blueIdle.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Blue\bluePullback\blueCatapult_Pullback.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\bluePullback\blueCatapult_Pullback.png">
       <PackagePath>images\Textures\Catapults\Blue\bluePullback\blueCatapult_Pullback.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Fire_Miss\fire_miss.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Fire_Miss\fire_miss.png">
       <PackagePath>images\Textures\Catapults\Fire_Miss\fire_miss.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Hit_Smoke\smoke.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Hit_Smoke\smoke.png">
       <PackagePath>images\Textures\Catapults\Hit_Smoke\smoke.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Red\redDestroyed\redCatapult_destroyed.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult1.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult1.png</PackagePath>
+      <Modified>2014-02-18T18:23:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult10.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult10.png</PackagePath>
+      <Modified>2014-02-18T18:31:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult11.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult11.png</PackagePath>
+      <Modified>2014-02-18T18:33:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult12.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult12.png</PackagePath>
+      <Modified>2014-02-18T18:34:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult13.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult13.png</PackagePath>
+      <Modified>2014-02-18T18:35:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult14.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult14.png</PackagePath>
+      <Modified>2014-02-18T18:35:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult15.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult15.png</PackagePath>
+      <Modified>2014-02-18T18:36:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult16.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult16.png</PackagePath>
+      <Modified>2014-02-18T18:37:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult17.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult17.png</PackagePath>
+      <Modified>2014-02-18T18:38:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult18.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult18.png</PackagePath>
+      <Modified>2014-02-18T18:39:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult19.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult19.png</PackagePath>
+      <Modified>2014-02-18T18:41:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult2.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult2.png</PackagePath>
+      <Modified>2014-02-18T18:24:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult20.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult20.png</PackagePath>
+      <Modified>2014-02-18T18:41:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult21.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult21.png</PackagePath>
+      <Modified>2014-02-18T18:41:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult22.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult22.png</PackagePath>
+      <Modified>2014-02-18T18:42:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult23.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult23.png</PackagePath>
+      <Modified>2014-02-18T18:43:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult24.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult24.png</PackagePath>
+      <Modified>2014-02-18T18:43:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult25.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult25.png</PackagePath>
+      <Modified>2014-02-18T18:44:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult26.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult26.png</PackagePath>
+      <Modified>2014-02-18T18:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult27.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult27.png</PackagePath>
+      <Modified>2014-02-18T18:45:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult28.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult28.png</PackagePath>
+      <Modified>2014-02-18T18:45:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult29.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult29.png</PackagePath>
+      <Modified>2014-02-18T18:46:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult3.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult3.png</PackagePath>
+      <Modified>2014-02-18T18:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult30.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult30.png</PackagePath>
+      <Modified>2014-02-18T18:46:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult4.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult4.png</PackagePath>
+      <Modified>2014-02-18T18:27:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult5.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult5.png</PackagePath>
+      <Modified>2014-02-18T18:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult6.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult6.png</PackagePath>
+      <Modified>2014-02-18T18:29:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult7.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult7.png</PackagePath>
+      <Modified>2014-02-18T18:29:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult8.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult8.png</PackagePath>
+      <Modified>2014-02-18T18:30:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult9.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult9.png</PackagePath>
+      <Modified>2014-02-18T18:31:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redDestroyed\redCatapult_destroyed.png">
       <PackagePath>images\Textures\Catapults\Red\redDestroyed\redCatapult_destroyed.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Red\redFire\redCatapult_fire.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redFire\redCatapult_fire.png">
       <PackagePath>images\Textures\Catapults\Red\redFire\redCatapult_fire.png</PackagePath>
-      <Modified>2010-08-19T10:11:04.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Red\redIdle\redIdle.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redIdle\redIdle.png">
       <PackagePath>images\Textures\Catapults\Red\redIdle\redIdle.png</PackagePath>
-      <Modified>2010-08-19T10:11:04.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Red\redPullback\redCatapult_Pullback.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redPullback\redCatapult_Pullback.png">
       <PackagePath>images\Textures\Catapults\Red\redPullback\redCatapult_Pullback.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\HUD\ammoType.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\HUD\ammoType.png">
       <PackagePath>images\Textures\HUD\ammoType.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\HUD\Arrow.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\HUD\Arrow.png">
       <PackagePath>images\Textures\HUD\Arrow.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\HUD\hudBackground.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\HUD\hudBackground.png">
       <PackagePath>images\Textures\HUD\hudBackground.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\HUD\windArrow.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\HUD\windArrow.png">
       <PackagePath>images\Textures\HUD\windArrow.png</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\coeur.gif">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\coeur.gif">
       <PackagePath>images\Textures\Backgrounds\coeur.gif</PackagePath>
-      <Modified>2014-02-02T13:31:20.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\AnimationsDef.xml">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\AnimationsDef.xml">
       <PackagePath>images\Textures\Catapults\AnimationsDef.xml</PackagePath>
-      <Modified>2010-08-19T10:11:02.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\css\default.css">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-01-15T22:49:52.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Console.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Console.js">
       <PackagePath>js\Console.js</PackagePath>
-      <Modified>2014-02-10T09:24:47.478</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\CreateJS\easeljs-0.6.1.min.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\CreateJS\easeljs-0.6.1.min.js">
       <PackagePath>js\CreateJS\easeljs-0.6.1.min.js</PackagePath>
-      <Modified>2013-09-03T13:09:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\CreateJS\preloadjs-0.3.1.min.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\CreateJS\preloadjs-0.3.1.min.js">
       <PackagePath>js\CreateJS\preloadjs-0.3.1.min.js</PackagePath>
-      <Modified>2013-09-03T13:09:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\default.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-01-27T07:58:30.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\AbstractCatapult.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\AbstractCatapult.js">
       <PackagePath>js\Game\AbstractCatapult.js</PackagePath>
-      <Modified>2014-02-10T08:19:27.065</Modified>
+      <Modified>2014-02-18T22:15:12.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\Ammo.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\Ammo.js">
       <PackagePath>js\Game\Ammo.js</PackagePath>
-      <Modified>2014-02-17T07:42:30.320</Modified>
+      <Modified>2014-02-18T17:33:57.772</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\CatapultCPU.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\CatapultCPU.js">
       <PackagePath>js\Game\CatapultCPU.js</PackagePath>
-      <Modified>2014-01-15T22:34:40.000</Modified>
+      <Modified>2014-02-18T21:38:19.092</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\CatapultHuman.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\CatapultHuman.js">
       <PackagePath>js\Game\CatapultHuman.js</PackagePath>
-      <Modified>2014-02-17T07:55:27.669</Modified>
+      <Modified>2014-02-18T22:20:56.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\Clouds.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\Clouds.js">
       <PackagePath>js\Game\Clouds.js</PackagePath>
-      <Modified>2014-01-27T08:15:12.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\Game.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\Game.js">
       <PackagePath>js\Game\Game.js</PackagePath>
-      <Modified>2014-02-17T08:01:08.186</Modified>
+      <Modified>2014-02-18T22:32:15.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\Image.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\Image.js">
       <PackagePath>js\Game\Image.js</PackagePath>
-      <Modified>2014-02-10T09:19:49.112</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\SoundManager.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\SoundManager.js">
       <PackagePath>js\Game\SoundManager.js</PackagePath>
-      <Modified>2014-02-10T09:19:49.108</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\AbstractWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\AbstractWindow.js">
       <PackagePath>js\Menu\AbstractWindow.js</PackagePath>
-      <Modified>2014-01-06T10:20:38.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\Action.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\Action.js">
       <PackagePath>js\Menu\Action.js</PackagePath>
-      <Modified>2014-01-06T08:06:38.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\AuthorizationsWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\AuthorizationsWindow.js">
       <PackagePath>js\Menu\AuthorizationsWindow.js</PackagePath>
-      <Modified>2014-01-06T08:12:36.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\CguWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\CguWindow.js">
       <PackagePath>js\Menu\CguWindow.js</PackagePath>
-      <Modified>2014-01-06T08:12:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\configWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\configWindow.js">
       <PackagePath>js\Menu\configWindow.js</PackagePath>
-      <Modified>2014-01-06T08:13:04.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\EvaluateWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\EvaluateWindow.js">
       <PackagePath>js\Menu\EvaluateWindow.js</PackagePath>
-      <Modified>2014-01-06T08:12:56.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\InstructionsWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\InstructionsWindow.js">
       <PackagePath>js\Menu\InstructionsWindow.js</PackagePath>
-      <Modified>2014-01-06T08:13:00.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\Main.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\Main.js">
       <PackagePath>js\Menu\Main.js</PackagePath>
-      <Modified>2014-01-27T07:56:20.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\StagesWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\StagesWindow.js">
       <PackagePath>js\Menu\StagesWindow.js</PackagePath>
-      <Modified>2014-01-06T08:13:08.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\BoulderHit.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\BoulderHit.wav">
       <PackagePath>sounds\BoulderHit.wav</PackagePath>
-      <Modified>2013-09-03T13:09:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\CatapultExplosion.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\CatapultExplosion.wav">
       <PackagePath>sounds\CatapultExplosion.wav</PackagePath>
-      <Modified>2013-09-03T13:09:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\CatapultFire.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\CatapultFire.wav">
       <PackagePath>sounds\CatapultFire.wav</PackagePath>
-      <Modified>2013-09-03T13:09:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\Lose.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\Lose.wav">
       <PackagePath>sounds\Lose.wav</PackagePath>
-      <Modified>2013-09-03T13:09:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\RopeStretch.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\RopeStretch.wav">
       <PackagePath>sounds\RopeStretch.wav</PackagePath>
-      <Modified>2013-09-03T13:09:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\Win.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\Win.wav">
       <PackagePath>sounds\Win.wav</PackagePath>
-      <Modified>2013-09-03T13:09:32.000</Modified>
+      <Modified>2014-02-17T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-02-10T08:29:52.911</Modified>
+      <Modified>2014-02-18T20:56:27.651</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

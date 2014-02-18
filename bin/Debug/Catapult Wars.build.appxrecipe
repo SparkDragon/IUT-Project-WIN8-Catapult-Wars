@@ -7,225 +7,375 @@
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\licenceweb\Desktop\Version Animation\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\default.html">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Ammo\rock_ammo.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Ammo\rock_ammo.png">
       <PackagePath>images\Textures\Ammo\rock_ammo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\blank.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\blank.png">
       <PackagePath>images\Textures\Backgrounds\blank.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\cloud1.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\cloud1.png">
       <PackagePath>images\Textures\Backgrounds\cloud1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\cloud2.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\cloud2.png">
       <PackagePath>images\Textures\Backgrounds\cloud2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\cloud3.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\cloud3.png">
       <PackagePath>images\Textures\Backgrounds\cloud3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\cloud4.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\cloud4.png">
       <PackagePath>images\Textures\Backgrounds\cloud4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\defeat.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\defeat.png">
       <PackagePath>images\Textures\Backgrounds\defeat.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\gameplay_screen.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\gameplay_screen.png">
       <PackagePath>images\Textures\Backgrounds\gameplay_screen.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\gameplay_screen1.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\gameplay_screen1.png">
       <PackagePath>images\Textures\Backgrounds\gameplay_screen1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\hudBackground.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\hudBackground.png">
       <PackagePath>images\Textures\Backgrounds\hudBackground.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\instructions.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\instructions.png">
       <PackagePath>images\Textures\Backgrounds\instructions.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\mountain.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\mountain.png">
       <PackagePath>images\Textures\Backgrounds\mountain.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\sky.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\sky.png">
       <PackagePath>images\Textures\Backgrounds\sky.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen.png">
       <PackagePath>images\Textures\Backgrounds\title_screen.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen2.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen2.png">
       <PackagePath>images\Textures\Backgrounds\title_screen2.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen_150x150.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen_150x150.png">
       <PackagePath>images\Textures\Backgrounds\title_screen_150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen_30x30.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen_30x30.png">
       <PackagePath>images\Textures\Backgrounds\title_screen_30x30.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen_310x150.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen_310x150.png">
       <PackagePath>images\Textures\Backgrounds\title_screen_310x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\title_screen_620x300.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\title_screen_620x300.png">
       <PackagePath>images\Textures\Backgrounds\title_screen_620x300.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\victory.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\victory.png">
       <PackagePath>images\Textures\Backgrounds\victory.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult1.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult10.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult11.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult12.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult13.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult14.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult15.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult16.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult17.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult18.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult19.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult2.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult20.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult3.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult4.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult5.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult6.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult7.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult8.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueAimAnimation\catapult9.png">
+      <PackagePath>images\Textures\Catapults\Blue\blueAimAnimation\catapult9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png">
       <PackagePath>images\Textures\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Blue\blueFire\blueCatapult_fire.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueFire\blueCatapult_fire.png">
       <PackagePath>images\Textures\Catapults\Blue\blueFire\blueCatapult_fire.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Blue\blueIdle\blueIdle.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\blueIdle\blueIdle.png">
       <PackagePath>images\Textures\Catapults\Blue\blueIdle\blueIdle.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Blue\bluePullback\blueCatapult_Pullback.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Blue\bluePullback\blueCatapult_Pullback.png">
       <PackagePath>images\Textures\Catapults\Blue\bluePullback\blueCatapult_Pullback.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Fire_Miss\fire_miss.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Fire_Miss\fire_miss.png">
       <PackagePath>images\Textures\Catapults\Fire_Miss\fire_miss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Hit_Smoke\smoke.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Hit_Smoke\smoke.png">
       <PackagePath>images\Textures\Catapults\Hit_Smoke\smoke.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Red\redDestroyed\redCatapult_destroyed.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult1.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult10.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult11.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult12.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult13.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult14.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult15.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult16.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult17.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult18.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult19.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult2.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult20.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult21.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult22.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult22.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult23.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult23.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult24.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult25.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult25.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult26.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult26.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult27.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult27.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult28.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult28.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult29.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult3.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult30.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult4.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult5.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult6.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult7.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult8.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redAimAnimation\catapult9.png">
+      <PackagePath>images\Textures\Catapults\Red\redAimAnimation\catapult9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redDestroyed\redCatapult_destroyed.png">
       <PackagePath>images\Textures\Catapults\Red\redDestroyed\redCatapult_destroyed.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Red\redFire\redCatapult_fire.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redFire\redCatapult_fire.png">
       <PackagePath>images\Textures\Catapults\Red\redFire\redCatapult_fire.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Red\redIdle\redIdle.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redIdle\redIdle.png">
       <PackagePath>images\Textures\Catapults\Red\redIdle\redIdle.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\Red\redPullback\redCatapult_Pullback.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\Red\redPullback\redCatapult_Pullback.png">
       <PackagePath>images\Textures\Catapults\Red\redPullback\redCatapult_Pullback.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\HUD\ammoType.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\HUD\ammoType.png">
       <PackagePath>images\Textures\HUD\ammoType.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\HUD\Arrow.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\HUD\Arrow.png">
       <PackagePath>images\Textures\HUD\Arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\HUD\hudBackground.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\HUD\hudBackground.png">
       <PackagePath>images\Textures\HUD\hudBackground.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\HUD\windArrow.png">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\HUD\windArrow.png">
       <PackagePath>images\Textures\HUD\windArrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Backgrounds\coeur.gif">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Backgrounds\coeur.gif">
       <PackagePath>images\Textures\Backgrounds\coeur.gif</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\images\Textures\Catapults\AnimationsDef.xml">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\images\Textures\Catapults\AnimationsDef.xml">
       <PackagePath>images\Textures\Catapults\AnimationsDef.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\css\default.css">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Console.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Console.js">
       <PackagePath>js\Console.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\CreateJS\easeljs-0.6.1.min.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\CreateJS\easeljs-0.6.1.min.js">
       <PackagePath>js\CreateJS\easeljs-0.6.1.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\CreateJS\preloadjs-0.3.1.min.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\CreateJS\preloadjs-0.3.1.min.js">
       <PackagePath>js\CreateJS\preloadjs-0.3.1.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\default.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\AbstractCatapult.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\AbstractCatapult.js">
       <PackagePath>js\Game\AbstractCatapult.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\Ammo.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\Ammo.js">
       <PackagePath>js\Game\Ammo.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\CatapultCPU.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\CatapultCPU.js">
       <PackagePath>js\Game\CatapultCPU.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\CatapultHuman.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\CatapultHuman.js">
       <PackagePath>js\Game\CatapultHuman.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\Clouds.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\Clouds.js">
       <PackagePath>js\Game\Clouds.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\Game.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\Game.js">
       <PackagePath>js\Game\Game.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\Image.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\Image.js">
       <PackagePath>js\Game\Image.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Game\SoundManager.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Game\SoundManager.js">
       <PackagePath>js\Game\SoundManager.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\AbstractWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\AbstractWindow.js">
       <PackagePath>js\Menu\AbstractWindow.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\Action.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\Action.js">
       <PackagePath>js\Menu\Action.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\AuthorizationsWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\AuthorizationsWindow.js">
       <PackagePath>js\Menu\AuthorizationsWindow.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\CguWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\CguWindow.js">
       <PackagePath>js\Menu\CguWindow.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\configWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\configWindow.js">
       <PackagePath>js\Menu\configWindow.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\EvaluateWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\EvaluateWindow.js">
       <PackagePath>js\Menu\EvaluateWindow.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\InstructionsWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\InstructionsWindow.js">
       <PackagePath>js\Menu\InstructionsWindow.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\Main.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\Main.js">
       <PackagePath>js\Menu\Main.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\js\Menu\StagesWindow.js">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\js\Menu\StagesWindow.js">
       <PackagePath>js\Menu\StagesWindow.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\BoulderHit.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\BoulderHit.wav">
       <PackagePath>sounds\BoulderHit.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\CatapultExplosion.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\CatapultExplosion.wav">
       <PackagePath>sounds\CatapultExplosion.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\CatapultFire.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\CatapultFire.wav">
       <PackagePath>sounds\CatapultFire.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\Lose.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\Lose.wav">
       <PackagePath>sounds\Lose.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\RopeStretch.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\RopeStretch.wav">
       <PackagePath>sounds\RopeStretch.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\sounds\Win.wav">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\sounds\Win.wav">
       <PackagePath>sounds\Win.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version actuelle CatapultWars\Version actuelle CatapultWars\Catapult Wars\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\licenceweb\Desktop\Version Animation\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

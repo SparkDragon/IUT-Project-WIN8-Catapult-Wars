@@ -41,7 +41,6 @@ function Ammo(image)
 	    
 	    shotVelocity = vector;   // vector is from the input events
 	    this.fireShot();
-	    
 	}
 
     // Start a shot
