@@ -1,5 +1,6 @@
 css\default.css
 default.html
+images\Catapult-Wars.png
 images\logo.png
 images\smalllogo.png
 images\splashscreen.png
@@ -14,6 +15,7 @@ images\Textures\Backgrounds\coeur.gif
 images\Textures\Backgrounds\defeat.png
 images\Textures\Backgrounds\gameplay_screen.png
 images\Textures\Backgrounds\gameplay_screen1.png
+images\Textures\Backgrounds\gameplay_screen2.png
 images\Textures\Backgrounds\hudBackground.png
 images\Textures\Backgrounds\instructions.png
 images\Textures\Backgrounds\mountain.png
@@ -24,6 +26,7 @@ images\Textures\Backgrounds\title_screen_30x30.png
 images\Textures\Backgrounds\title_screen_310x150.png
 images\Textures\Backgrounds\title_screen_620x300.png
 images\Textures\Backgrounds\title_screen2.png
+images\Textures\Backgrounds\title_screen2.scale-100.png
 images\Textures\Backgrounds\victory.png
 images\Textures\Catapults\AnimationsDef.xml
 images\Textures\Catapults\Blue\blueAimAnimation\catapult1.png
@@ -90,6 +93,11 @@ images\Textures\HUD\ammoType.png
 images\Textures\HUD\Arrow.png
 images\Textures\HUD\hudBackground.png
 images\Textures\HUD\windArrow.png
+images\Textures\Menu\Back.png
+images\Textures\Menu\Catapult-Wars-Background.png
+images\Textures\Menu\Instructions.png
+images\Textures\Menu\MultiPlayer.png
+images\Textures\Menu\SinglePlayer.png
 js\Console.js
 js\CreateJS\easeljs-0.6.1.min.js
 js\CreateJS\preloadjs-0.3.1.min.js

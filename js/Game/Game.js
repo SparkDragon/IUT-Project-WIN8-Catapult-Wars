@@ -71,7 +71,7 @@
 				{ id: "c3Image", src: "images/Textures/Backgrounds/cloud3.png" },
 				{ id: "c4Image", src: "images/Textures/Backgrounds/cloud4.png" },
 				{ id: "p1Live", src: "images/Textures/Backgrounds/hudBackground.png" },
-				{ id: "screenTitle", src: "images/Textures/Backgrounds/title_screen2.png" },
+				//{ id: "screenTitle", src: "images/Textures/Backgrounds/title_screen2.png" },
 				{ id: "coeur", src: "images/Textures/Backgrounds/coeur.gif" },
 				
 				{ id: "hitSound", src: SoundManager.getInstance().sounds["hit"]["path"]},
@@ -212,6 +212,7 @@
 			stage.addChild(p2Name);
 
             // Game Title
+            /*
 			title = new Image();
 			title.image = preload.getResult("screenTitle");
 			title.bitmap = new createjs.Bitmap(title.image);
@@ -220,7 +221,7 @@
 			title.bitmap.x = Game.SCALE_X * 275;
 			title.bitmap.y = Game.SCALE_Y;
 			stage.addChild(title.bitmap);
-
+            */
 			ammo = new Ammo(preload.getResult("ammoImage"));
 
 			//Add the boulder, but hide for now
@@ -243,18 +244,21 @@
     }
 
 	function beginAim(event)
-	{
-		try
+    {
+        if ((player1.getLives() > 0 && player2.getLives() > 0))
 		{
-			if (!ammo.isShotFlying())	// The ammo is in the air --> Let's move the ammo
-			{
-			    getCurrentPlayer().beginAim(event);
-			}
-		}
-		catch(e)
-		{
-			new Console(e, true);
-		}
+		    try
+		    {
+			    if (!ammo.isShotFlying())	// The ammo is in the air --> Let's move the ammo
+			    {
+			        getCurrentPlayer().beginAim(event);
+			    }
+		    }
+		    catch(e)
+		    {
+			    new Console(e, true);
+		    }
+        }
 	}
 	
 	function adjustAim(event)

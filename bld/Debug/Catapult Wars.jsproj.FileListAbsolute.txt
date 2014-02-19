@@ -98,3 +98,16 @@ C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\priconfig.xml.intermedia
 C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\layout.resfiles.intermediate
 C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\resources.resfiles.intermediate
 C:\Users\licenceweb\Desktop\Version Animation\bld\Debug\pri.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bin\Debug\resources.pri
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bin\Debug\AppxManifest.xml
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\priconfig.xml.intermediate
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\layout.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\resources.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\pri.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\priconfig.xml
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\layout.resfiles
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\resources.resfiles
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\pri.resfiles
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\LanguageQualifiers.txt
+C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\ProjectArchitectures.txt
