@@ -1,4 +1,4 @@
-﻿function Game(players)
+﻿function Game(players, nbClouds, background)
 {
     var title;
     var p1Lives, p1Name;
@@ -6,6 +6,7 @@
     var background;
     var p1LivesI, p2LivesI;
     var coeur, coeur2;
+    var back;
 
     var clouds;
 
@@ -13,7 +14,7 @@
     var playerFire = false;		// Does player 1 is firing ?
 	
     var nbPlayer = (typeof players === "undefined") ? 1 : players;
-
+	var backgroundNum = (typeof background === "undefined") ? 1 : background;
 	this.ammo;
     this.player1;
     this.player2;
@@ -35,7 +36,7 @@
     {
 		try
 		{
-			createjs.Ticker.setInterval(window.requestAnimationFrame);
+		    createjs.Ticker.setInterval(10);
 			createjs.Ticker.addListener(Gameloop);
 		}
 		catch(e)
@@ -54,16 +55,31 @@
 			canvas.height = window.innerHeight;
 			context = canvas.getContext("2d");
 			stage = new createjs.Stage(canvas);
-			clouds = new Clouds();
+			clouds = new Clouds(nbClouds);
+			
+			switch(backgroundNum)
+			{
+				case 2:
+					var background = "images/Textures/Backgrounds/gameplay_screen2.png";
+					break;
+				case 3:
+					var background = "images/Textures/Backgrounds/gameplay_screen3.png";
+					break;
+				default:
+					var background = "images/Textures/Backgrounds/gameplay_screen1.png";
+					break;
+			}
 
 			preload.addEventListener("complete", prepareGame);
 			var manifest = [
-				{ id: "screenImage", src: "images/Textures/Backgrounds/gameplay_screen1.png" },
+				{ id: "screenImage", src: background },
 				{ id: "redImage", src: "images/Textures/Catapults/Red/redIdle/redIdle.png" },
 				{ id: "blueImage", src: "images/Textures/Catapults/Blue/blueIdle/blueIdle.png" },
 				{ id: "ammoImage", src: "images/Textures/Ammo/rock_ammo.png" },
 				{ id: "winImage", src: "images/Textures/Backgrounds/victory.png" },
 				{ id: "loseImage", src: "images/Textures/Backgrounds/defeat.png" },
+				{ id: "player1wins", src: "images/Textures/Backgrounds/player1wins.png" },
+				{ id: "player2wins", src: "images/Textures/Backgrounds/player2wins.png" },
 				{ id: "blueFire", src: "images/Textures/Catapults/Blue/blueFire/blueCatapult_fire.png" },
 				{ id: "redFire", src: "images/Textures/Catapults/Red/redFire/redCatapult_fire.png" },
 				{ id: "c1Image", src: "images/Textures/Backgrounds/cloud1.png" },
@@ -73,6 +89,7 @@
 				{ id: "p1Live", src: "images/Textures/Backgrounds/hudBackground.png" },
 				//{ id: "screenTitle", src: "images/Textures/Backgrounds/title_screen2.png" },
 				{ id: "coeur", src: "images/Textures/Backgrounds/coeur.gif" },
+                { id: "backButton", src:"images/Textures/HUD/backbutton.png" },
 				
 				{ id: "hitSound", src: SoundManager.getInstance().sounds["hit"]["path"]},
 				{ id: "explodeSound", src: SoundManager.getInstance().sounds["explode"]["path"]},
@@ -98,16 +115,17 @@
 	
 	function startEventListeners()
 	{
-		canvas.addEventListener("MSPointerUp", endAim, false);
-		canvas.addEventListener("MSPointerMove", adjustAim, false);
-		canvas.addEventListener("MSPointerDown", beginAim, false);
+		canvas.addEventListener("MSPointerUp", onPointerUp, false);
+		canvas.addEventListener("MSPointerMove", onPointerMove, false);
+		canvas.addEventListener("MSPointerDown", onPointerDown, false);
 	}
 	
 	function stopEventListeners()
 	{
-		canvas.removeEventListener("MSPointerUp", endAim, false);
-		canvas.removeEventListener("MSPointerMove", adjustAim, false);
-		canvas.removeEventListener("MSPointerDown", beginAim, false);
+		canvas.removeEventListener("MSPointerUp", onPointerUp, false);
+		canvas.removeEventListener("MSPointerMove", onPointerMove, false);
+		canvas.removeEventListener("MSPointerDown", onPointerDown, false);
+		canvas.removeEventListener("MSPointerUp", onBackButtonPressed, false);
 	}
 
     function prepareGame()
@@ -120,8 +138,6 @@
                 player2 = new CatapultHuman(preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
             else
                 player2 = new CatapultCPU(preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
-
-			startEventListeners();
 
 			//Draw background first (other items appear on top)
 			
@@ -234,22 +250,49 @@
 			var image4 = preload.getResult("c4Image");
 			clouds.initializeClouds([image1, image2, image3, image4]);
 
+			back = new Image();
+			back.image = preload.getResult("backButton");
+			back.bitmap = new createjs.Bitmap(back.image);
+			back.bitmap.scaleX = Game.SCALE_X;
+			back.bitmap.scaleY = Game.SCALE_Y;
+			back.setX(Game.SCALE_X);
+			back.setY(window.innerHeight - back.image.height * Game.SCALE_Y);
+			back.bitmap.alpha = 0.7;
+			stage.addChild(back.bitmap);
+
 			stage.update();
 
 			startGame();
+
+			startEventListeners();
         }
         catch (e) {
             new Console(e, true);
         }
     }
 
-	function beginAim(event)
+    function onBackButtonPressed() {
+        createjs.Ticker.removeAllListeners();
+        stopEventListeners();
+        Main.instance.prepareMenu();
+    }
+
+    function checkButtonPressed(event) {
+        
+        if (event.x > back.borderLeft && event.x < back.borderRight && event.y < back.borderBottom && event.y > back.borderTop) {
+            onBackButtonPressed();
+            stopEventListeners();
+        }
+    }
+	function onPointerDown(event)
     {
+	    checkButtonPressed(event);
         if ((player1.getLives() > 0 && player2.getLives() > 0))
 		{
 		    try
 		    {
-			    if (!ammo.isShotFlying())	// The ammo is in the air --> Let's move the ammo
+		        Debug.writeln(ammo.isShotFlying() + " - " + getCurrentPlayer().isAiming + " - " + getCurrentPlayer().shotInit);
+			    if (!ammo.isShotFlying() && !getCurrentPlayer().isAiming && !getCurrentPlayer().shotInit)	// The ammo is in the air --> Let's move the ammo
 			    {
 			        getCurrentPlayer().beginAim(event);
 			    }
@@ -261,11 +304,12 @@
         }
 	}
 	
-	function adjustAim(event)
+	function onPointerMove(event)
 	{
 		try
 		{
-			getCurrentPlayer().adjustAim(event);
+		    if (!getCurrentPlayer().shotInit)
+			    getCurrentPlayer().adjustAim(event);
 		}
 		catch(e)
 		{
@@ -273,16 +317,15 @@
 		}
 	}
 	
-	function endAim(event)
+	function onPointerUp(event)
 	{
 		try
 		{
-			if (getCurrentPlayer().isAiming)
+			if (getCurrentPlayer().isAiming && !getCurrentPlayer().shotInit)
 			{
 			    if (getCurrentPlayer().endAim(event))
                 {
 				    playerFire = false;
-				    SoundManager.getInstance().playSound("fire");
                 }
 			}
 		}
@@ -381,7 +424,10 @@
 		{
 		    var aimVector = getCurrentPlayer().nextAnimationToShoot();
 		    if (aimVector)
-                ammo.initializeShot(getCurrentPlayer(), aimVector, getCurrentPlayer());
+		    {
+		        getCurrentPlayer().shotInit = false;
+		        ammo.initializeShot(getCurrentPlayer(), aimVector, getCurrentPlayer());
+            }
 		}
         
         else if (nbPlayer == 1 && playerTurn == 2)
@@ -409,18 +455,31 @@
     {
 		try
 		{
-			createjs.Ticker.setPaused(true); // Stop the game loop
+		    canvas.addEventListener("MSPointerUp", onBackButtonPressed, false);
+			createjs.Ticker.removeAllListeners(); // Stop the game loop
 
 			// Show win/lose graphic
 			var endGameImage;
 			if (player1.getLives() <= 0)
 			{
-				endGameImage = preload.getResult("loseImage");
-				SoundManager.getInstance().playSound("lose");
+				if (nbPlayer == 1)
+				{
+					endGameImage = preload.getResult("loseImage");
+					SoundManager.getInstance().playSound("lose");
+				}
+				else
+				{
+					endGameImage = preload.getResult("player2wins");
+					SoundManager.getInstance().playSound("win");
+				}					
 			}
 			else if (player2.getLives() <= 0)
 			{
-				endGameImage = preload.getResult("winImage");
+				if (nbPlayer == 1)
+					endGameImage = preload.getResult("winImage");
+				else
+					endGameImage = preload.getResult("player1wins");
+					
 				SoundManager.getInstance().playSound("win");
 			}
 			var endGameBitmap = new createjs.Bitmap(endGameImage);
@@ -458,3 +517,4 @@ Game.SCALE_Y = window.innerHeight / 480;
 Game.MARGIN = 25;
 Game.GROUND_Y = 390 * Game.SCALE_Y;
 Game.LIVES_PER_PLAYER = 3;
+Game.instance;

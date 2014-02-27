@@ -39,16 +39,25 @@
     {
         if (this.isAiming)
         {
+            this.shotInit = true;
             this.isAiming = false;
+            var y = (event.y > this.borderBottom) ? this.borderBottom : event.y;
+
             if (this.position == "left")       // Player 1
             {
                 if (event.x < this.aimStart.x && event.y > this.aimStart.y)
                 {
                     this.replaced = false;
                     this.isShooting = true;
-                    this.startShot(this.calculatePoint(event.y));
+                    this.startShot(this.calculatePoint(y));
                     this.refresh();
                     return true;
+                }
+                else
+                {
+                    this.shotInit = false;
+                    this.currentFrame = 17;
+                    this.refresh();
                 }
             }
             else       // Player 2
@@ -57,12 +66,17 @@
                 {
                     this.replaced = false;
                     this.isShooting = true;
-                    this.startShot(this.calculatePoint(event.y));
+                    this.startShot(this.calculatePoint(y));
                     this.refresh();
                     return true;
                 }
+                else
+                {
+                    this.shotInit = false;
+                    this.currentFrame = 17;
+                    this.refresh();
+                }
             }
-            this.currentFrame = 17;
             return false;  
         }
     }

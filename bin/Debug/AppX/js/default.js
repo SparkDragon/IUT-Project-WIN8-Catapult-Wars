@@ -4,7 +4,6 @@
     "use strict";
 
     WinJS.Binding.optimizeBindingReferences = true;
-
     var app = WinJS.Application;
     var activation = Windows.ApplicationModel.Activation;
 
@@ -37,8 +36,8 @@
 
     function main()
     {
-        var main = new Main();
-        main.initializeMenu();
+        Main.instance = new Main();
+        Main.instance.initializeMenu();
     }
 
     document.addEventListener("DOMContentLoaded", main, false);

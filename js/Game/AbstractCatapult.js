@@ -8,8 +8,8 @@
     this.bitmap.scaleX = (this.position == "left") ?  Game.SCALE_X : -Game.SCALE_X;
     this.bitmap.scaleY = Game.SCALE_Y;
 
-    this.bitmap.x = (this.position == "left") ? Game.MARGIN : window.innerWidth - Game.MARGIN;
-    this.bitmap.y = Game.GROUND_Y - image.height * Game.SCALE_Y;
+    this.setX((this.position == "left") ? Game.MARGIN : window.innerWidth - Game.MARGIN);
+    this.setY(Game.GROUND_Y - image.height * Game.SCALE_Y);
 
     if (this.position == "left")
     {
@@ -30,6 +30,7 @@
     this.borderBack = (this.position == "left") ? this.borderLeft : this.borderRight;
 
     this.isAiming = false;
+    this.shotInit = false;
     this.aimStart;
     this.aimVector;
 
@@ -40,21 +41,22 @@
 
     this.initAim = function()
     {
+        this.isAiming = true;
         SoundManager.getInstance().playSound("aim");
 
         this.aimStart = new createjs.Point(
-            ((this.borderBack + this.borderFront) / 2),
+            ((this.borderRight + this.borderLeft) / 2),
             this.borderTop
         );
 
         if (this.aimStart == null)
             throw new Error("Erreur lors de la création du point de départ");
-        this.isAiming = true;
     }
 
     this.startShot = function(aimCurrent)
     {
         SoundManager.getInstance().stopSound("aim");
+	    SoundManager.getInstance().playSound("fire");
         if (typeof aimCurrent === "undefined")
             throw new Error("Erreur lors de la création du point");
         this.aimVector = this.calculateAim(this.aimStart, aimCurrent, Ammo.MAX_SHOT_POWER);
@@ -86,14 +88,16 @@
     this.calculatePoint = function(y)
     {
         var rayon = this.borderBottom - this.borderTop;
-        var a = this.borderLeft + (this.borderRight - this.borderLeft);
+        var a = (this.borderRight - this.borderLeft)/2;
         var b = this.borderBottom;
         var x = Math.ceil(Math.sqrt(Math.pow(rayon, 2) - Math.pow((y - b), 2)) + a);
         if (this.position == "left")
-            var point = new createjs.Point(- x, y);
+        {
+            var point = new createjs.Point((-x + this.borderLeft + a), y);
+        }
         else
         {
-            var point = new createjs.Point(x, y);
+            var point = new createjs.Point((x + this.borderLeft + a), y);
         }
         return point;
     }
@@ -114,12 +118,14 @@
     {
         if (this.currentFrame < 19)
         {
+            this.shotInit = true;
             this.currentFrame++;
             this.refresh();
             return false;
         }
         else
         {
+            this.shotInit = false;
             this.isShooting = false;
             return this.aimVector;
         }
@@ -135,6 +141,7 @@
         }
         else
         {
+            this.isAiming = false;
             this.replaced = true;
             return true;
         }

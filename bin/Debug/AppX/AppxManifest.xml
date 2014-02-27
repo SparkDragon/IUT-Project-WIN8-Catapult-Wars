@@ -24,7 +24,7 @@
     <Application Id="App" StartPage="default.html">
       <VisualElements DisplayName="Catapult Wars" Logo="images\Textures\Backgrounds\title_screen_150x150.png" SmallLogo="images\Textures\Backgrounds\title_screen_30x30.png" Description="Catapult Wars" ForegroundText="light" BackgroundColor="#D3D0DF">
         <DefaultTile ShowName="allLogos" WideLogo="images\Textures\Backgrounds\title_screen_310x150.png" />
-        <SplashScreen Image="images\Textures\Backgrounds\title_screen2.png" BackgroundColor="#1639FF" />
+        <SplashScreen Image="images\Catapult-Wars.png" BackgroundColor="#1639FF" />
         <InitialRotationPreference>
           <Rotation Preference="landscape" />
           <Rotation Preference="landscapeFlipped" />

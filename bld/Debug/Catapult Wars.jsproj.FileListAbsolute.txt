@@ -111,3 +111,55 @@ C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\resources
 C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\pri.resfiles
 C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\LanguageQualifiers.txt
 C:\Users\licenceweb\Desktop\Version Animation + menu + multi\bld\Debug\ProjectArchitectures.txt
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bin\Debug\resources.pri
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bin\Debug\AppxManifest.xml
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\priconfig.xml.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\layout.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\resources.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\pri.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\priconfig.xml
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\layout.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\resources.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\pri.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\LanguageQualifiers.txt
+C:\Users\licenceweb\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\ProjectArchitectures.txt
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bin\Debug\resources.pri
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bin\Debug\AppxManifest.xml
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\priconfig.xml.intermediate
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\layout.resfiles.intermediate
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\resources.resfiles.intermediate
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\pri.resfiles.intermediate
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\priconfig.xml
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\layout.resfiles
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\resources.resfiles
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\pri.resfiles
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\LanguageQualifiers.txt
+C:\Users\Simon\Desktop\Catapult Wars - journée portes ouvertes\bld\Debug\ProjectArchitectures.txt
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bin\Debug\resources.pri
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bin\Debug\AppxManifest.xml
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\priconfig.xml.intermediate
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\layout.resfiles.intermediate
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\resources.resfiles.intermediate
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\pri.resfiles.intermediate
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\priconfig.xml
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\layout.resfiles
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\resources.resfiles
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\pri.resfiles
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\LanguageQualifiers.txt
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - journée portes ouvertes\bld\Debug\ProjectArchitectures.txt
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bin\Debug\resources.pri
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bin\Debug\AppxManifest.xml
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\priconfig.xml.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\layout.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\resources.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\pri.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\priconfig.xml
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\layout.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\resources.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\pri.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\LanguageQualifiers.txt
+C:\Users\licenceweb\Desktop\Catapult Wars - Correction bugs\bld\Debug\ProjectArchitectures.txt

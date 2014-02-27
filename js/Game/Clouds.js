@@ -1,6 +1,6 @@
-﻿function Clouds()
+﻿function Clouds(nbClouds)
 {
-    var MAX_CLOUDS = 5;
+    var MAX_CLOUDS = (typeof nbClouds === "undefined") ? 5 : nbClouds;
     this.clouds;
     this.sens;
 

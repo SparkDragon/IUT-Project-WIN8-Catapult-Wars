@@ -8,7 +8,6 @@ function Main()
 	var BT_instruction;
 	var BT_quitter;
 	var ImgLoad;
-    this.preload;
     this.canvas;
     this.context;
     this.stage;
@@ -21,28 +20,28 @@ function Main()
         context = canvas.getContext("2d");
         stage = new createjs.Stage(canvas);
 
-        preload = new createjs.LoadQueue();
-        preload.addEventListener("complete", prepareMenu);
+        Main.preload = new createjs.LoadQueue();
+        Main.preload.addEventListener("complete", this.prepareMenu);
         var manifest = [
             { id: "backgroundImage", src: "images/Textures/Menu/Catapult-Wars-Background.png" },
             { id: "singlePlayer", src: "images/Textures/Menu/SinglePlayer.png" },
             { id: "multiPlayer", src: "images/Textures/Menu/MultiPlayer.png" },
             { id: "instructionImage", src: "images/Textures/Menu/Instructions.png" }
         ];
-        preload.loadManifest(manifest);
+        Main.preload.loadManifest(manifest);
     }
 	
-	function prepareMenu()
+    this.prepareMenu = function()
     {
 	    background = new Image();
-		background.image = preload.getResult("backgroundImage");
+	    background.image = Main.preload.getResult("backgroundImage");
 		background.bitmap = new createjs.Bitmap(background.image);
 		background.bitmap.scaleX = Main.SCALE_X;
 		background.bitmap.scaleY = Main.SCALE_Y;
         stage.addChild(background.bitmap);
 
 		BT_1Player = new Image();
-		BT_1Player.image = preload.getResult("singlePlayer");
+		BT_1Player.image = Main.preload.getResult("singlePlayer");
 		BT_1Player.bitmap = new createjs.Bitmap(BT_1Player.image);
 		BT_1Player.bitmap.scaleX = Main.SCALE_X;
 		BT_1Player.bitmap.scaleY = Main.SCALE_Y;
@@ -51,7 +50,7 @@ function Main()
 		stage.addChild(BT_1Player.bitmap);
 
         BT_2Player = new Image();
-		BT_2Player.image = preload.getResult("multiPlayer");
+        BT_2Player.image = Main.preload.getResult("multiPlayer");
 		BT_2Player.bitmap = new createjs.Bitmap(BT_2Player.image);
 		BT_2Player.bitmap.scaleX = Main.SCALE_X;
 		BT_2Player.bitmap.scaleY = Main.SCALE_Y;
@@ -60,7 +59,7 @@ function Main()
         stage.addChild( BT_2Player.bitmap);
 		
         BT_instruction = new Image();
-		BT_instruction.image = preload.getResult("instructionImage");
+        BT_instruction.image = Main.preload.getResult("instructionImage");
 		BT_instruction.bitmap = new createjs.Bitmap(BT_instruction.image);
 		BT_instruction.bitmap.scaleX = Main.SCALE_X;
 		BT_instruction.bitmap.scaleY = Main.SCALE_Y;
@@ -69,15 +68,13 @@ function Main()
         stage.addChild(BT_instruction.bitmap);
 		
         ImgLoad = new Image();
-		ImgLoad.image = preload.getResult("singlePlayer");
+        ImgLoad.image = Main.preload.getResult("singlePlayer");
 		ImgLoad.bitmap = new createjs.Bitmap(ImgLoad.image);
 		ImgLoad.bitmap.scaleX = Main.SCALE_X;
 		ImgLoad.bitmap.scaleY = Main.SCALE_Y;
 		ImgLoad.setX((background.image.width * Main.SCALE_X / 2) - ((ImgLoad.image.width * Main.SCALE_X)/ 2));
 		ImgLoad.setY((background.image.height * Main.SCALE_Y / 2));
 		
-
-
         canvas.addEventListener("MSPointerUp", TestBouton, false);
         
         stage.update();
@@ -108,9 +105,9 @@ function Main()
 	{
 	    
 	    canvas.removeEventListener("MSPointerUp", TestBouton, false);
-	    
-	    var game = new Game(nbJoueur);
-		game.initializeGame();
+		context.clearRect(0, 0, canvas.width, canvas.height);
+		var stagesWindow = new StagesWindow(nbJoueur);
+		stagesWindow.initializeChoice();
 	}
 	
 	function clickInstruction()
@@ -121,7 +118,10 @@ function Main()
 		var instructionWindow = new InstructionsWindow();
 		instructionWindow.initializeInstructionsWindow();
 	}
+
 }
 
 Main.SCALE_X = window.innerWidth / 800;
 Main.SCALE_Y = window.innerHeight / 480;
+Main.instance;
+Main.preload;
