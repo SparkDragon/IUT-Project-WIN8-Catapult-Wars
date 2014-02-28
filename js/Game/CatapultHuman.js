@@ -1,7 +1,6 @@
-﻿function CatapultHuman (image, nbLives, position)
+﻿function CatapultHuman (destruction, image, nbLives, position)
 {
-    AbstractCatapult.call(this, image, nbLives, position);
-
+    AbstractCatapult.call(this, destruction, image, nbLives, position);
 
     // Trigger by MSPointerDown event
     this.beginAim = function (event)

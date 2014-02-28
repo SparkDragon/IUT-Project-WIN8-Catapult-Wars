@@ -32,6 +32,14 @@
             return this.player2;
     }
 
+    function getNextPlayer()
+    {
+        if (playerTurn == 1)
+            return this.player2;
+        else
+            return this.player1;
+    }
+
     function startGame()
     {
 		try
@@ -50,11 +58,11 @@
     {
 		try
 		{
-			canvas = document.getElementById("gameCanvas");
-			canvas.width = window.innerWidth;
-			canvas.height = window.innerHeight;
-			context = canvas.getContext("2d");
-			stage = new createjs.Stage(canvas);
+			this.canvas = document.getElementById("gameCanvas");
+			this.canvas.width = window.innerWidth;
+			this.canvas.height = window.innerHeight;
+			context = this.canvas.getContext("2d");
+			this.stage = new createjs.Stage(this.canvas);
 			clouds = new Clouds(nbClouds);
 			
 			switch(backgroundNum)
@@ -82,6 +90,8 @@
 				{ id: "player2wins", src: "images/Textures/Backgrounds/player2wins.png" },
 				{ id: "blueFire", src: "images/Textures/Catapults/Blue/blueFire/blueCatapult_fire.png" },
 				{ id: "redFire", src: "images/Textures/Catapults/Red/redFire/redCatapult_fire.png" },
+                { id: "blueDestroy", src: "images/Textures/Catapults/Blue/blueDestroyed/blueCatapult_destroyed.png" },
+				{ id: "redDestroy", src: "images/Textures/Catapults/Red/redDestroyed/redCatapult_destroyed.png" },
 				{ id: "c1Image", src: "images/Textures/Backgrounds/cloud1.png" },
 				{ id: "c2Image", src: "images/Textures/Backgrounds/cloud2.png" },
 				{ id: "c3Image", src: "images/Textures/Backgrounds/cloud3.png" },
@@ -115,29 +125,29 @@
 	
 	function startEventListeners()
 	{
-		canvas.addEventListener("MSPointerUp", onPointerUp, false);
-		canvas.addEventListener("MSPointerMove", onPointerMove, false);
-		canvas.addEventListener("MSPointerDown", onPointerDown, false);
+		this.canvas.addEventListener("MSPointerUp", onPointerUp, false);
+		this.canvas.addEventListener("MSPointerMove", onPointerMove, false);
+		this.canvas.addEventListener("MSPointerDown", onPointerDown, false);
 	}
 	
 	function stopEventListeners()
 	{
-		canvas.removeEventListener("MSPointerUp", onPointerUp, false);
-		canvas.removeEventListener("MSPointerMove", onPointerMove, false);
-		canvas.removeEventListener("MSPointerDown", onPointerDown, false);
-		canvas.removeEventListener("MSPointerUp", onBackButtonPressed, false);
+		this.canvas.removeEventListener("MSPointerUp", onPointerUp, false);
+		this.canvas.removeEventListener("MSPointerMove", onPointerMove, false);
+		this.canvas.removeEventListener("MSPointerDown", onPointerDown, false);
+		this.canvas.removeEventListener("MSPointerUp", onBackButtonPressed, false);
 	}
 
     function prepareGame()
     {
         try
 		{
-            player1 = new CatapultHuman(preload.getResult("redImage"), Game.LIVES_PER_PLAYER, "left");
+            player1 = new CatapultHuman(preload.getResult("redDestroy"),preload.getResult("redImage"), Game.LIVES_PER_PLAYER, "left");
 
             if (nbPlayer == 2)
-                player2 = new CatapultHuman(preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
+                player2 = new CatapultHuman(preload.getResult("blueDestroy"), preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
             else
-                player2 = new CatapultCPU(preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
+                player2 = new CatapultCPU(preload.getResult("blueDestroy"), preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
 
 			//Draw background first (other items appear on top)
 			
@@ -146,13 +156,13 @@
 			background.bitmap = new createjs.Bitmap(background.image);
 			background.bitmap.scaleX = Game.SCALE_X;
 			background.bitmap.scaleY = Game.SCALE_Y;
-			stage.addChild(background.bitmap);
+			this.stage.addChild(background.bitmap);
 
 			//Draw Player 1 Catapult
-			stage.addChild(player1.bitmap);
+			this.stage.addChild(player1.bitmap);
 
 			//Draw Player 2 Catapult
-			stage.addChild(player2.bitmap);
+			this.stage.addChild(player2.bitmap);
 
 			
             // Player 1 Live board
@@ -163,7 +173,7 @@
 			p1LivesI.bitmap.scaleY = Game.SCALE_Y;
 			p1LivesI.bitmap.x = Game.SCALE_X;
 			p1LivesI.bitmap.y = Game.SCALE_Y;
-			stage.addChild(p1LivesI.bitmap);
+			this.stage.addChild(p1LivesI.bitmap);
 
             // Player 1 Heart
 			coeur = new Image();
@@ -173,7 +183,7 @@
 			coeur.bitmap.scaleY = Game.SCALE_Y / 1.5;
 			coeur.bitmap.x = p1LivesI.bitmap.x * 40;
 			coeur.bitmap.y = p1LivesI.bitmap.y * 35;
-			stage.addChild(coeur.bitmap);
+			this.stage.addChild(coeur.bitmap);
 
             // Player 1 Lives
 			p1Lives = new createjs.Text(player1.getLives(), "30px Arial", "red");
@@ -181,7 +191,7 @@
 			p1Lives.scaleY = Game.SCALE_Y;
 			p1Lives.x = p1LivesI.bitmap.x * 115;
 			p1Lives.y = p1LivesI.bitmap.y * 35;
-			stage.addChild(p1Lives);
+			this.stage.addChild(p1Lives);
 
             // Player 1 Name
 			p1Name = new createjs.Text("Player 1", "19px Arial", "red");
@@ -189,7 +199,7 @@
 			p1Name.scaleY = Game.SCALE_Y;
 			p1Name.x = p1LivesI.bitmap.x * 57;
 			p1Name.y = p1LivesI.bitmap.y * 4;
-			stage.addChild(p1Name);
+			this.stage.addChild(p1Name);
 
             // Player 2 Live board
 			p2LivesI = new Image();
@@ -197,9 +207,9 @@
 			p2LivesI.bitmap = new createjs.Bitmap(p2LivesI.image);
 			p2LivesI.bitmap.scaleX = Game.SCALE_X;
 			p2LivesI.bitmap.scaleY = Game.SCALE_Y;
-			p2LivesI.bitmap.x = canvas.width - p2LivesI.image.height * Game.SCALE_X * 2.15;
+			p2LivesI.bitmap.x = this.canvas.width - p2LivesI.image.height * Game.SCALE_X * 2.15;
 			p2LivesI.bitmap.y = Game.SCALE_Y;
-			stage.addChild(p2LivesI.bitmap);
+			this.stage.addChild(p2LivesI.bitmap);
 
             // Player 2 Heart
 			coeur2 = new Image();
@@ -209,7 +219,7 @@
 			coeur2.bitmap.scaleY = Game.SCALE_Y / 1.5;
 			coeur2.bitmap.x = p2LivesI.bitmap.x * 1.065;
 			coeur2.bitmap.y = p2LivesI.bitmap.y * 35;
-			stage.addChild(coeur2.bitmap);
+			this.stage.addChild(coeur2.bitmap);
 
             // Player 2 Lives
 			p2Lives = new createjs.Text(player2.getLives(), "30px Arial", "blue");
@@ -217,7 +227,7 @@
 			p2Lives.scaleY = Game.SCALE_Y;
 			p2Lives.x = p2LivesI.bitmap.x * 1.185;
 			p2Lives.y = p2LivesI.bitmap.y * 35;
-			stage.addChild(p2Lives);
+			this.stage.addChild(p2Lives);
 
             // Player 2 Name
 			p2Name = new createjs.Text("Player 2", "19px Arial", "blue");
@@ -225,7 +235,7 @@
 			p2Name.scaleY = Game.SCALE_Y;
 			p2Name.x = p2LivesI.bitmap.x * 1.09;
 			p2Name.y = p2LivesI.bitmap.y * 4;
-			stage.addChild(p2Name);
+			this.stage.addChild(p2Name);
 
             // Game Title
             /*
@@ -236,12 +246,12 @@
 			title.bitmap.scaleY = Game.SCALE_Y / 2.5;
 			title.bitmap.x = Game.SCALE_X * 275;
 			title.bitmap.y = Game.SCALE_Y;
-			stage.addChild(title.bitmap);
+			this.stage.addChild(title.bitmap);
             */
 			ammo = new Ammo(preload.getResult("ammoImage"));
 
 			//Add the boulder, but hide for now
-			stage.addChild(ammo.bitmap);
+			this.stage.addChild(ammo.bitmap);
 
 			// Clouds
 			var image1 = preload.getResult("c1Image");
@@ -258,9 +268,9 @@
 			back.setX(Game.SCALE_X);
 			back.setY(window.innerHeight - back.image.height * Game.SCALE_Y);
 			back.bitmap.alpha = 0.7;
-			stage.addChild(back.bitmap);
+			this.stage.addChild(back.bitmap);
 
-			stage.update();
+			this.stage.update();
 
 			startGame();
 
@@ -271,14 +281,15 @@
         }
     }
 
-    function onBackButtonPressed() {
+    function onBackButtonPressed()
+    {
         createjs.Ticker.removeAllListeners();
         stopEventListeners();
         Main.instance.prepareMenu();
     }
 
-    function checkButtonPressed(event) {
-        
+    function checkButtonPressed(event)
+    {
         if (event.x > back.borderLeft && event.x < back.borderRight && event.y < back.borderBottom && event.y > back.borderTop) {
             onBackButtonPressed();
             stopEventListeners();
@@ -291,7 +302,6 @@
 		{
 		    try
 		    {
-		        Debug.writeln(ammo.isShotFlying() + " - " + getCurrentPlayer().isAiming + " - " + getCurrentPlayer().shotInit);
 			    if (!ammo.isShotFlying() && !getCurrentPlayer().isAiming && !getCurrentPlayer().shotInit)	// The ammo is in the air --> Let's move the ammo
 			    {
 			        getCurrentPlayer().beginAim(event);
@@ -323,6 +333,7 @@
 		{
 			if (getCurrentPlayer().isAiming && !getCurrentPlayer().shotInit)
 			{
+			    stopEventListeners();
 			    if (getCurrentPlayer().endAim(event))
                 {
 				    playerFire = false;
@@ -355,14 +366,12 @@
     {
 		try
 		{
-			SoundManager.getInstance().playSound("hit");
+			SoundManager.getInstance().playSound("explode");
 			ammo.endShot();
-			changePlayerTurn();
-
-			if ((player1.getLives() <= 0 || player2.getLives() <= 0))
-			{
-				endGame();
-			}
+            
+            this.stage.removeChild(getNextPlayer().bitmap);
+            getNextPlayer().destructAnimation();
+            this.stage.addChild(getNextPlayer().bitmap);
 		}
 		catch(e)
 		{
@@ -373,16 +382,25 @@
 	function changePlayerTurn()
     {
 	    playerTurn = playerTurn%2 +1;    // Change player
-		if (nbPlayer == 1)
-		{
-			if (playerTurn == 2)
-			{
-				stopEventListeners();
-            }
-			else
-				startEventListeners();
-		}
+		if (nbPlayer == 1 && playerTurn == 2)
+	        stopEventListeners();
+        else
+			startEventListeners();
 	}
+
+	this.backToNormal = function()
+	{
+	    this.stage.removeChild(getNextPlayer().bitmap);
+	    getNextPlayer().bitmap = getNextPlayer().classicBitmap;
+	    this.stage.addChild(getNextPlayer().bitmap);
+        player2.loseLife(1);
+        
+	    changePlayerTurn();
+		if ((player1.getLives() <= 0 || player2.getLives() <= 0))
+		{
+			endGame();
+		}
+    }
 
 	// Move the ammo or wait the player 1 to fire
     function update()
@@ -394,17 +412,14 @@
 
 		if (ammo.isShotFlying())	// The ammo is in the air --> Let's move the ammo
 		{
-			if (!ammo.move())	// If the ammo stop moving (shot over)
-			{
-			    changePlayerTurn();
-			}
-			else if (playerTurn == 1)	// Player 1 is playing
+		    if (!ammo.move() && !checkHit(player2) && !checkHit(player1))	// If the ammo stop moving (shot over)
+		        changePlayerTurn();
+			if (playerTurn == 1)	// Player 1 is playing
 			{
 				if (checkHit(player2))
 				{
 					// Hit
-					player2.loseLife(1);
-					p2Lives.text = player2.getLives();
+					p2Lives.text = player2.getLives() -1;
 					processHit();
 				}
 			}
@@ -413,8 +428,7 @@
 				if (checkHit(player1))
 				{
 					// Hit
-					player1.loseLife(1);
-					p1Lives.text = player1.getLives();
+					p1Lives.text = player1.getLives() -1;
 					processHit();
 				}
 			}
@@ -448,14 +462,14 @@
 
     function draw()
     {
-        stage.update();
+        this.stage.update();
     }
 
     function endGame()
     {
 		try
 		{
-		    canvas.addEventListener("MSPointerUp", onBackButtonPressed, false);
+		    this.canvas.addEventListener("MSPointerUp", onBackButtonPressed, false);
 			createjs.Ticker.removeAllListeners(); // Stop the game loop
 
 			// Show win/lose graphic
@@ -484,13 +498,15 @@
 			}
 			var endGameBitmap = new createjs.Bitmap(endGameImage);
 
-			endGameBitmap.x = (canvas.width / 2) - (endGameImage.width * Game.SCALE_X / 2);
-			endGameBitmap.y = (canvas.height / 2) - (endGameImage.height * Game.SCALE_Y / 2);
+			endGameBitmap.x = (this.canvas.width / 2) - (endGameImage.width * Game.SCALE_X / 2);
+			endGameBitmap.y = (this.canvas.height / 2) - (endGameImage.height * Game.SCALE_Y / 2);
 			endGameBitmap.scaleX = Game.SCALE_X;
 			endGameBitmap.scaleY = Game.SCALE_Y;
 
-			stage.addChild(endGameBitmap);
-			stage.update();
+			this.stage.addChild(endGameBitmap);
+			this.stage.update();
+
+			startEventListeners();
 		}
 		catch(e)
 		{

@@ -23,6 +23,7 @@ function Ammo(image)
 			this.bitmap.x + this.bitmap.image.width >= window.innerWidth)
 		{
 			// Missed
+			SoundManager.getInstance().playSound("hit");
 		    this.endShot();
 			return false;
 		}

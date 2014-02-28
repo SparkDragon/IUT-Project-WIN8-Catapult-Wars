@@ -1,6 +1,6 @@
-﻿function CatapultCPU(image, nbLives, position)
+﻿function CatapultCPU(destruction, image, nbLives, position)
 {
-    AbstractCatapult.call(this, image, nbLives, position);
+    AbstractCatapult.call(this, destruction, image, nbLives, position);
     this.currentY;
     this.maxY = this.borderBottom;
     this.minY = this.borderTop + this.aimStep * 3;

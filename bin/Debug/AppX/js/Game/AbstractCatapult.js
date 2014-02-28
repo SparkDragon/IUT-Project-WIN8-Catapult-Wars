@@ -1,7 +1,23 @@
-﻿function AbstractCatapult(image, nbLives, position)
+﻿function AbstractCatapult(destruction, image, nbLives, position)
 {
-    Image.call(this,image);
-	
+    Image.call(this, image);
+
+    this.spriteSheet = new createjs.SpriteSheet(
+    {
+        images: [destruction],
+
+        frames: { width: 122, height: 62, regX: 122 / 2, regY: 31 },
+        animations:
+        {
+            destroy: [0, 29, "destroy", 3]
+        }
+    });
+
+    this.destructionBitmap = new createjs.BitmapAnimation(this.spriteSheet);
+    this.destructionBitmap.currentFrame = 0;
+    this.destructionBitmap.vX = 3;
+    this.destructionBitmap.addEventListener("animationend", Game.instance.backToNormal, false);
+    this.classicBitmap = this.bitmap;
     this.lives = nbLives;
 	this.position = (typeof position === 'undefined') ? "left" : position;
 
@@ -16,13 +32,21 @@
         this.typeOfCatapult = "redCatapult";
         this.borderLeft = this.bitmap.x;
         this.borderRight = this.bitmap.x + this.bitmap.image.width * this.bitmap.scaleX;
+        this.destructionBitmap.scaleX = Game.SCALE_X;
+        this.destructionBitmap.x = this.bitmap.x + 15 * Game.SCALE_X;
     }
     else
     {
         this.typeOfCatapult = "blueCatapult";
         this.borderRight = this.bitmap.x;
         this.borderLeft = this.bitmap.x + this.bitmap.image.width * this.bitmap.scaleX;
+        this.destructionBitmap.scaleX = -Game.SCALE_X;
+        this.destructionBitmap.x = this.bitmap.x - 15 * Game.SCALE_X;
     }
+
+    this.destructionBitmap.scaleY = Game.SCALE_Y;
+    this.destructionBitmap.y = this.bitmap.y + 33 * Game.SCALE_Y;
+    this.destructionBitmap.currentFrame = 0;
 
     this.borderTop = this.bitmap.y;
     this.borderBottom = this.bitmap.y + this.bitmap.image.height * this.bitmap.scaleY;
@@ -38,6 +62,8 @@
     this.currentFrame = 19;
     this.isShooting = false;
     this.replaced = true;
+
+
 
     this.initAim = function()
     {
@@ -151,4 +177,11 @@
     {
         this.bitmap.image = preload.getResult(this.typeOfCatapult + this.currentFrame);
     }
+
+    this.destructAnimation = function()
+    {       
+        this.bitmap = this.destructionBitmap;
+        this.destructionBitmap.gotoAndPlay("destroy");
+    }
+
 }

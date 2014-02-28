@@ -36,7 +36,7 @@
                 path = "/sounds/CatapultFire.wav";
                 break;
             case "hit":
-                path = "/sounds/BoulderHit.wav";
+                path = "/sounds/CatapultExplosion.wav";
                 break;
             case "explode":
                 path = "/sounds/CatapultExplosion.wav";
