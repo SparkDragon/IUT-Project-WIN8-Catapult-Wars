@@ -8,9 +8,9 @@
         if (!this.isAiming)
         {
 			if (event.x > this.borderLeft && event.x < this.borderRight
-				&& event.y < this.borderBottom && event.y > this.borderTop)
+				&& event.y < this.borderBottom && event.y > this.borderTop && this.canShot)
 			{
-				this.initAim();
+			    this.initAim();
 			}
         }
     }
@@ -40,6 +40,7 @@
         {
             this.shotInit = true;
             this.isAiming = false;
+            this.canShot = false;
             var y = (event.y > this.borderBottom) ? this.borderBottom : event.y;
 
             if (this.position == "left")       // Player 1
@@ -54,6 +55,7 @@
                 }
                 else
                 {
+                    this.canShot = true;
                     this.shotInit = false;
                     this.currentFrame = 17;
                     this.refresh();
@@ -71,6 +73,7 @@
                 }
                 else
                 {
+                    this.canShot = true;
                     this.shotInit = false;
                     this.currentFrame = 17;
                     this.refresh();

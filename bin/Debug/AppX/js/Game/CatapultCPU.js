@@ -8,8 +8,9 @@
 
     this.beginAim = function ()
     {
-        if (!this.isAiming)
+        if (!this.isAiming && this.canShot)
         {
+            
             this.initAim();
             this.currentY = this.borderTop;
             this.nextY = Math.ceil(Math.random() * (this.maxY - this.minY) + this.minY);
@@ -40,6 +41,7 @@
             this.isAiming = false;
             this.replaced = false;
             this.isShooting = true;
+            this.canShot = false;
             if (this.position == "left")       // Player 1
             {
                 this.startShot(this.calculatePoint(this.nextY));

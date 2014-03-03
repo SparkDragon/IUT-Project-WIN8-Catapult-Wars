@@ -1,1 +1,1 @@
-C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (sans animations) - Copie\Catapult Wars.jsproj;neutral
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations)\Catapult Wars.jsproj;neutral

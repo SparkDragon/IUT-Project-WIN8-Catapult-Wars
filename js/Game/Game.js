@@ -23,6 +23,7 @@
     this.canvas;
     this.context;
     this.stage;
+    this.canShot = true;
 
     function getCurrentPlayer()
     {
@@ -64,7 +65,7 @@
 			context = this.canvas.getContext("2d");
 			this.stage = new createjs.Stage(this.canvas);
 			clouds = new Clouds(nbClouds);
-			
+			this.canShot = true;
 			switch(backgroundNum)
 			{
 				case 2:
@@ -143,12 +144,12 @@
         try
 		{
             player1 = new CatapultHuman(preload.getResult("redDestroy"),preload.getResult("redImage"), Game.LIVES_PER_PLAYER, "left");
-
+            player1.canShot = true;
             if (nbPlayer == 2)
                 player2 = new CatapultHuman(preload.getResult("blueDestroy"), preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
             else
                 player2 = new CatapultCPU(preload.getResult("blueDestroy"), preload.getResult("blueImage"), Game.LIVES_PER_PLAYER, "right");
-
+            player2.canShot = false;
 			//Draw background first (other items appear on top)
 			
 			background = new Image();
@@ -333,7 +334,6 @@
 		{
 			if (getCurrentPlayer().isAiming && !getCurrentPlayer().shotInit)
 			{
-			    stopEventListeners();
 			    if (getCurrentPlayer().endAim(event))
                 {
 				    playerFire = false;
@@ -382,10 +382,7 @@
 	function changePlayerTurn()
     {
 	    playerTurn = playerTurn%2 +1;    // Change player
-		if (nbPlayer == 1 && playerTurn == 2)
-	        stopEventListeners();
-        else
-			startEventListeners();
+	    getCurrentPlayer().canShot = true;
 	}
 
 	this.backToNormal = function()
@@ -393,7 +390,7 @@
 	    this.stage.removeChild(getNextPlayer().bitmap);
 	    getNextPlayer().bitmap = getNextPlayer().classicBitmap;
 	    this.stage.addChild(getNextPlayer().bitmap);
-        player2.loseLife(1);
+        getNextPlayer().loseLife(1);
         
 	    changePlayerTurn();
 		if ((player1.getLives() <= 0 || player2.getLives() <= 0))
@@ -474,28 +471,27 @@
 
 			// Show win/lose graphic
 			var endGameImage;
-			if (player1.getLives() <= 0)
-			{
-				if (nbPlayer == 1)
-				{
-					endGameImage = preload.getResult("loseImage");
-					SoundManager.getInstance().playSound("lose");
-				}
-				else
-				{
-					endGameImage = preload.getResult("player2wins");
-					SoundManager.getInstance().playSound("win");
-				}					
+			if (player1.getLives() <= 0) {
+			    if (nbPlayer == 1) {
+			        endGameImage = preload.getResult("loseImage");
+			        SoundManager.getInstance().playSound("lose");
+			    }
+			    else {
+			        endGameImage = preload.getResult("player2wins");
+			        SoundManager.getInstance().playSound("win");
+			    }
 			}
-			else if (player2.getLives() <= 0)
-			{
-				if (nbPlayer == 1)
-					endGameImage = preload.getResult("winImage");
-				else
-					endGameImage = preload.getResult("player1wins");
-					
-				SoundManager.getInstance().playSound("win");
+			else if (player2.getLives() <= 0) {
+			    if (nbPlayer == 1)
+			        endGameImage = preload.getResult("winImage");
+			    else
+			        endGameImage = preload.getResult("player1wins");
+
+			    SoundManager.getInstance().playSound("win");
 			}
+			else
+			    return;
+
 			var endGameBitmap = new createjs.Bitmap(endGameImage);
 
 			endGameBitmap.x = (this.canvas.width / 2) - (endGameImage.width * Game.SCALE_X / 2);

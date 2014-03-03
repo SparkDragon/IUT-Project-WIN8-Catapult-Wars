@@ -2,6 +2,8 @@
 {
     Image.call(this, image);
 
+    this.canShot;
+
     this.spriteSheet = new createjs.SpriteSheet(
     {
         images: [destruction],
