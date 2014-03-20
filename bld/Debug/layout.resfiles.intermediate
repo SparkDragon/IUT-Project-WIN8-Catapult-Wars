@@ -54,6 +54,7 @@ images\Textures\Catapults\Blue\blueDestroyed\blueCatapult_destroyed.png
 images\Textures\Catapults\Blue\blueFire\blueCatapult_fire.png
 images\Textures\Catapults\Blue\blueIdle\blueIdle.png
 images\Textures\Catapults\Blue\bluePullback\blueCatapult_Pullback.png
+images\Textures\Catapults\Blue\BlueTurn.png
 images\Textures\Catapults\Fire_Miss\fire_miss.png
 images\Textures\Catapults\Hit_Smoke\smoke.png
 images\Textures\Catapults\Red\redAimAnimation\catapult1.png
@@ -90,6 +91,7 @@ images\Textures\Catapults\Red\redDestroyed\redCatapult_destroyed.png
 images\Textures\Catapults\Red\redFire\redCatapult_fire.png
 images\Textures\Catapults\Red\redIdle\redIdle.png
 images\Textures\Catapults\Red\redPullback\redCatapult_Pullback.png
+images\Textures\Catapults\Red\RedTurn.png
 images\Textures\HUD\ammoType.png
 images\Textures\HUD\Arrow.png
 images\Textures\HUD\backbutton.png
@@ -116,11 +118,6 @@ js\Game\Game.js
 js\Game\Image.js
 js\Game\SoundManager.js
 js\Menu\AbstractWindow.js
-js\Menu\Action.js
-js\Menu\AuthorizationsWindow.js
-js\Menu\CguWindow.js
-js\Menu\configWindow.js
-js\Menu\EvaluateWindow.js
 js\Menu\InstructionsWindow.js
 js\Menu\Main.js
 js\Menu\StagesWindow.js

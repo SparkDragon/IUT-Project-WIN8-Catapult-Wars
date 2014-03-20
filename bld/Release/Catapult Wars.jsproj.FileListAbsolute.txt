@@ -1,0 +1,13 @@
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bin\Release\resources.pri
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bin\Release\AppxManifest.xml
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bin\Release\Catapult Wars.build.appxrecipe
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\priconfig.xml.intermediate
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\layout.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\resources.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\pri.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\priconfig.xml
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\layout.resfiles
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\resources.resfiles
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\pri.resfiles
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\LanguageQualifiers.txt
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Release\ProjectArchitectures.txt

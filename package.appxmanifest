@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="7151262f-3f9e-4bf6-9b33-183a71308732" Version="1.0.0.0" Publisher="CN=licenceweb" />
+  <Identity Name="7151262f-3f9e-4bf6-9b33-183a71308732" Version="1.0.0.3" Publisher="CN=licenceweb" />
   <Properties>
     <DisplayName>Catapult Wars</DisplayName>
     <PublisherDisplayName>licenceweb</PublisherDisplayName>

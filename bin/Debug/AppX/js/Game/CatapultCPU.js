@@ -42,17 +42,11 @@
             this.replaced = false;
             this.isShooting = true;
             this.canShot = false;
-            if (this.position == "left")       // Player 1
-            {
-                this.startShot(this.calculatePoint(this.nextY));
-                return true;
-            }
-            else       // Player 2
-            {
-                this.startShot(this.calculatePoint(this.nextY));
-				return true;
-            }
-            return false;  
+            this.startShot(this.calculatePoint(this.nextY));
+            return true;
+             
         }
     }
+
+    this.drawArrow = function () {}
 }

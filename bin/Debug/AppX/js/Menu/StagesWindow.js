@@ -9,9 +9,7 @@
 	var BT_back;
 	
     this.preload;
-    this.canvas;
-    this.context;
-    this.stage;
+    
 
 	var nbPlayer = (typeof players === "undefined") ? 1 : players;
 	

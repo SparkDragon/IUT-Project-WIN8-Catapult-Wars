@@ -4,9 +4,6 @@
 	
 	var background;
 	this.preload;
-    this.canvas;
-    this.context;
-    this.stage;
 	this.BT_retour;
 	
 	

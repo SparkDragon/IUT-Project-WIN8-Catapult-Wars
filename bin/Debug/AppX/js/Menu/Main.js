@@ -1,6 +1,7 @@
 ﻿
 function Main()
 {
+    AbstractWindow.call(this);
 
     var background;
     var BT_1Player;
@@ -8,9 +9,6 @@ function Main()
 	var BT_instruction;
 	var BT_quitter;
 	var ImgLoad;
-    this.canvas;
-    this.context;
-    this.stage;
 
     this.initializeMenu = function()
     {

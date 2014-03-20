@@ -1,7 +1,6 @@
 ﻿function AbstractWindow ()
 {
-    this.addButton = function(action)
-    {
-        
-    }
+    this.canvas;
+    this.context;
+    this.stage;
 }

@@ -48,6 +48,8 @@
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>fr-FR</DefaultLanguage>
     <PackageCertificateKeyFile>Catapult Wars_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>C:\Users\licenceweb\Desktop\test1</AppxPackageDir>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -108,6 +110,7 @@
     <Content Include="images\Textures\Catapults\Blue\blueFire\blueCatapult_fire.png" />
     <Content Include="images\Textures\Catapults\Blue\blueIdle\blueIdle.png" />
     <Content Include="images\Textures\Catapults\Blue\bluePullback\blueCatapult_Pullback.png" />
+    <Content Include="images\Textures\Catapults\Blue\BlueTurn.png" />
     <Content Include="images\Textures\Catapults\Fire_Miss\fire_miss.png" />
     <Content Include="images\Textures\Catapults\Hit_Smoke\smoke.png" />
     <Content Include="images\Textures\Catapults\Red\redAimAnimation\catapult1.png" />
@@ -144,6 +147,7 @@
     <Content Include="images\Textures\Catapults\Red\redFire\redCatapult_fire.png" />
     <Content Include="images\Textures\Catapults\Red\redIdle\redIdle.png" />
     <Content Include="images\Textures\Catapults\Red\redPullback\redCatapult_Pullback.png" />
+    <Content Include="images\Textures\Catapults\Red\RedTurn.png" />
     <Content Include="images\Textures\HUD\ammoType.png" />
     <Content Include="images\Textures\HUD\Arrow.png" />
     <Content Include="images\Textures\HUD\backbutton.png" />
@@ -171,11 +175,6 @@
     <Content Include="js\Game\Image.js" />
     <Content Include="js\Game\SoundManager.js" />
     <Content Include="js\Menu\AbstractWindow.js" />
-    <Content Include="js\Menu\Action.js" />
-    <Content Include="js\Menu\AuthorizationsWindow.js" />
-    <Content Include="js\Menu\CguWindow.js" />
-    <Content Include="js\Menu\configWindow.js" />
-    <Content Include="js\Menu\EvaluateWindow.js" />
     <Content Include="js\Menu\InstructionsWindow.js" />
     <Content Include="js\Menu\Main.js" />
     <Content Include="js\Menu\StagesWindow.js" />

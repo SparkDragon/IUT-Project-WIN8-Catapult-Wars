@@ -189,3 +189,51 @@ C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations)\
 C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations)\bld\Debug\pri.resfiles
 C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations)\bld\Debug\LanguageQualifiers.txt
 C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations)\bld\Debug\ProjectArchitectures.txt
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bin\Debug\resources.pri
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bin\Debug\AppxManifest.xml
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\priconfig.xml.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\layout.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\resources.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\pri.resfiles.intermediate
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\priconfig.xml
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\layout.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\resources.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\pri.resfiles
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\LanguageQualifiers.txt
+C:\Users\licenceweb\Desktop\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\ProjectArchitectures.txt
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bin\Debug\resources.pri
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bin\Debug\AppxManifest.xml
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bin\Debug\Catapult Wars.build.appxrecipe
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\priconfig.xml.intermediate
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\layout.resfiles.intermediate
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\resources.resfiles.intermediate
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\pri.resfiles.intermediate
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\priconfig.xml
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\layout.resfiles
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\resources.resfiles
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\pri.resfiles
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\LanguageQualifiers.txt
+G:\CW\Catapult Wars - Version terminée (avec animations et sans bug)\bld\Debug\ProjectArchitectures.txt
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bin\Debug\resources.pri
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bin\Debug\AppxManifest.xml
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\priconfig.xml.intermediate
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\layout.resfiles.intermediate
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\resources.resfiles.intermediate
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\pri.resfiles.intermediate
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\priconfig.xml
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\layout.resfiles
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\resources.resfiles
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\pri.resfiles
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\LanguageQualifiers.txt
+C:\Users\Simon\Documents\Catapult Project\Catapult Wars - Version terminée (avec animations et sans bug)2\bld\Debug\ProjectArchitectures.txt
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bin\Debug\resources.pri
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bin\Debug\AppxManifest.xml
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bin\Debug\Catapult Wars.build.appxrecipe
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Debug\priconfig.xml
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Debug\layout.resfiles
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Debug\resources.resfiles
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Debug\pri.resfiles
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Debug\LanguageQualifiers.txt
+C:\Users\licenceweb\Desktop\Cataput Wars\Catapult-Wars-master\bld\Debug\ProjectArchitectures.txt
